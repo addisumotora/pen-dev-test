@@ -70,7 +70,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-const Meeting = () => {
+const MeetingPage = () => {
   return (
     <div>
       <h2 className="text-base font-semibold leading-6 text-gray-900">Upcoming meetings</h2>
@@ -225,4 +225,4 @@ const Meeting = () => {
   )
 }
 
-export default Meeting;
+export default MeetingPage;
